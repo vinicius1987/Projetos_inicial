@@ -10,10 +10,10 @@ import javax.persistence.ManyToOne;
 public class Convidado {
 	
 	@Id
-	@Column(nullable = false)
+	@Column(nullable = true)
 	private String rg;
 	
-	@Column(nullable = false)
+	@Column(nullable = true)
 	private String nomeConvidado;
 	
 	@ManyToOne
